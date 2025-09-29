@@ -52,7 +52,9 @@ def reset_world():
     #소년 11명을 만들고 월드에 추가
     team = [Boy() for _ in range(11)]
     world += team
-
+    #공을 만들고 월드에 추가
+    balls = [Balls() for _ in range(20)]
+    world += balls
     pass
 
 #객체들의 상호작용을 simulation
