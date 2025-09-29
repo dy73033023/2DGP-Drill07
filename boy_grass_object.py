@@ -37,6 +37,8 @@ class Balls:
         self.speed = random.randint(5,20)
 
     def draw(self):
+        self.image.draw(self.x, self.y)
+        self.image.draw(self.x, self.y)
         pass
 
 def handle_events():
