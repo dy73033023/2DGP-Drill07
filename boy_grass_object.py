@@ -74,7 +74,7 @@ def reset_world():
     team = [Boy() for _ in range(11)]
     world += team
     #공을 만들고 월드에 추가
-    balls = [Balls() for _ in range(20)]
+    balls = [Balls() for _ in range(10)]
     world += balls
     pass
 
