@@ -34,6 +34,7 @@ class Balls:
         self.image2 = load_image('ball41x41.png')
         self.x = random.randint(100,700)
         self.y = 599
+        self.speed = random.randint(5,20)
     pass
 
 def handle_events():
