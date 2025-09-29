@@ -38,7 +38,7 @@ class Balls:
 
     def draw(self):
         self.image.draw(self.x, self.y)
-        self.image.draw(self.x, self.y)
+        self.image2.draw(self.x, self.y)
         pass
 
     def update(self):
