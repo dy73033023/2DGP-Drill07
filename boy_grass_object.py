@@ -29,6 +29,10 @@ class Boy:
     pass
 
 class Balls:
+    def __init__(self):
+        self.image = load_image('ball21x21.png')
+        self.image2 = load_image('ball41x41.png')
+
     pass
 
 def handle_events():
