@@ -28,6 +28,9 @@ class Boy:
         self.x +=5
     pass
 
+class Balls:
+    pass
+
 def handle_events():
     global running
     events = get_events()
